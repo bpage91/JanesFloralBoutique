@@ -1,5 +1,16 @@
 body {
-    background-image: url(images/background.jpg);
-    background-repeat: no-repeat;
-    background-size: 100% auto;
+    background-color: rgb(193, 17, 209);
+}
+
+.game {
+    display: grid;
+}
+
+.button {
+    box-sizing: border-box;
+    margin: 2px;
+    padding: 2px;
+    width: 50%;
+    height: 100px;
+    border-radius: 35px;
 }
