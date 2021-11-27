@@ -6,37 +6,49 @@
         <title>Jane's Floral Boutique</title>
         <meta name="author" content="Jane's Floral Boutique">
         <meta name="description" content="Jane's Floral Boutique">
-        <meta name="viewport" content="width=device-width, itital-scale=1">
+        <meta name="viewport" content="width=device-width, inital-scale=1">
         <link rel="stylesheet" href="small.css">
         <link rel="stylesheet" href="medium.css">
         <link rel="stylesheet" href="large.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
 
     <body>
-        <Header>
-            <h1>Jane's Floral Boutique</h1>
-            <div id="flowers" class="game">
-                <button id="b1" class="button">Dandelion</button>
-                <button id="b2" class="button">Tulips</button>
-                <button id="b3" class="button">Roses</button>
-                <button id="b4" class="button">Lilies</button>
-                <button id="b5" class="button">Daffodils</button>
-                <button id="b6" class="button">Daisies</button>
-                <button id="b7" class="button">Carnations</button>
-                <button id="b8" class="button">Orchids</button>
-            </div>
-            <div id="upgrades" class="game">
-                <button id="b1" class="button">upgrade Dandelions</button>
-                <button id="b2" class="button">upgrade Tulips</button>
-                <button id="b3" class="button">upgrade Roses</button>
-                <button id="b4" class="button">upgrade Lilies</button>
-                <button id="b5" class="button">upgrade Daffodils</button>
-                <button id="b6" class="button">upgrade Daisies</button>
-                <button id="b7" class="button">upgrade Carnations</button>
-                <button id="b8" class="button">upgrade Orchids</button>
-            </div>
-        </Header>
-        
-    </body>
+        <header>
+            <h1>
+                <h1>Jane's Floral Boutique</h1>
+            </h1>
+        </header>
 
+        <nav class="clearfix">
+            <button id="hamburgerBtn">&#9776;</button>
+            <ul  id="primaryNav">
+                <li><a href="upgrades.html">Upgrades</a></li>
+            </ul>
+        </nav>
+
+        <main>
+
+            <h1>Money: <span id="money">5</span></h1>
+            <div class="small medium large">
+                <button class="button b1" onclick="buyDandelion()">Dandelion <span id="dandelionCost">5 </span>
+                    <span id="dandelion">0</span></button>
+                <button class="button b1" onclick="buyTulip()">Tulip <span id="tulipCost">25 </span>
+                    <span id="tulip">0</span></button>
+                <button class="button b1" onclick="buyRose()">Rose <span id="roseCost">125 </span>
+                    <span id="rose">0</span></button>
+                <button class="button b1" onclick="buyLily()">Lily <span id="lilyCost">625 </span>
+                    <span id="lily">0</span></button>
+                <button class="button b1" onclick="buyDaffodil()">Daffodil <span id="daffodilCost">3125 </span>
+                    <span id="daffodil">0</span></button>
+                <button class="button b1" onclick="buyDaisy()">Daisy <span id="daisyCost">15625 </span>
+                    <span id="daisy">0</span></button>
+                <button class="button b1" onclick="buyCarnation()">Carnation <span id="carnationCost">78125 </span>
+                    <span id="carnation">0</span></button>
+                <button class="button b1" onclick="buyOrchid()">Orchid <span id="orchidCost">390625 </span>
+                    <span id="orchid">0</span></button>
+            </div>
+        </main>
+        <script src="main.js"></script> 
+    </body>
 </html>
