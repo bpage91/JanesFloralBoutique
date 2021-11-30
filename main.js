@@ -1,3 +1,7 @@
+//------------VARIABLES-------------
+
+
+
 //variables
 var money = 1005;
 var dandelionCost = 5;
@@ -40,6 +44,13 @@ var orchid = 0;
 var orchidMoney = 100000;
 var upOrchidCost = 78125000;
 var upOrchid = 0;
+
+
+
+
+//-----------MAIN GAME-----------
+
+
 
 //dandelion
 function buyDandelion() {
@@ -145,13 +156,20 @@ function buyOrchid() {
     }
 }
 
+
+
+
+//-----------UPGRADES-------------
+
+
+
 //upgradeDandelion
 function buyUpDandelion() {
     if (money >= upDandelionCost) {
         money = money - upDandelionCost;
         upDandelion = upDandelion + 1;
         dandelionMoney = dandelionMoney * 3;
-        upDandelionCost = Math.round (upDandelionCost * 1.3);
+        upDandelionCost = Math.round (upDandelionCost * 3);
 
         document.getElementById("money").innerHTML = money
         document.getElementById("upDandelionCost").innerHTML = upDandelionCost
@@ -166,7 +184,7 @@ function buyUpTulip() {
         money = money - upTulipCost;
         upTulip = upTulip + 1;
         tulipMoney = tulipMoney * 3;
-        upTulipCost = Math.round (upTulipCost * 1.3);
+        upTulipCost = Math.round (upTulipCost * 3);
 
         document.getElementById("money").innerHTML = money
         document.getElementById("upTulipCost").innerHTML = upTulipCost
@@ -181,7 +199,7 @@ function buyUpRose() {
         money = money - upRoseCost;
         upRose = upRose + 1;
         roseMoney = roseMoney * 3;
-        upRoseCost = Math.round (upRoseCost * 1.3);
+        upRoseCost = Math.round (upRoseCost * 3);
 
         document.getElementById("money").innerHTML = money
         document.getElementById("upRoseCost").innerHTML = upRoseCost
@@ -196,7 +214,7 @@ function buyUpLily() {
         money = money - upLilyCost;
         upLily = upLily + 1;
         lilyMoney = lilyMoney * 3;
-        upLilyCost = Math.round (upLilyCost * 1.3);
+        upLilyCost = Math.round (upLilyCost * 3);
 
         document.getElementById("money").innerHTML = money
         document.getElementById("upLilyCost").innerHTML = upLilyCost
@@ -211,7 +229,7 @@ function buyUpDaffodil() {
         money = money - upDaffodilCost;
         upDaffodil = upDaffodil + 1;
         daffodilMoney = daffodilMoney * 3;
-        upDaffodilCost = Math.round (upDaffodilCost * 1.3);
+        upDaffodilCost = Math.round (upDaffodilCost * 3);
 
         document.getElementById("money").innerHTML = money
         document.getElementById("upDaffodilCost").innerHTML = upDaffodilCost
@@ -226,7 +244,7 @@ function buyUpDaisy() {
         money = money - upDaisyCost;
         upDaisy = upDaisy + 1;
         daisyMoney = daisyMoney * 3;
-        upDaisyCost = Math.round (upDaisyCost * 1.3);
+        upDaisyCost = Math.round (upDaisyCost * 3);
 
         document.getElementById("money").innerHTML = money
         document.getElementById("upDaisyCost").innerHTML = upDaisyCost
@@ -241,7 +259,7 @@ function buyUpCarnation() {
         money = money - upCarnationCost;
         upCarnation = upCarnation + 1;
         carnationMoney = carnationMoney * 3;
-        upCarnationCost = Math.round (upCarnationCost * 1.3);
+        upCarnationCost = Math.round (upCarnationCost * 3);
 
         document.getElementById("money").innerHTML = money
         document.getElementById("upCarnationCost").innerHTML = upCarnationCost
@@ -256,7 +274,7 @@ function buyUpOrchid() {
         money = money - upOrchidCost;
         upOrchid = upOrchid + 1;
         orchidMoney = orchidMoney * 3;
-        upOrchidCost = Math.round (upOrchidCost * 1.3);
+        upOrchidCost = Math.round (upOrchidCost * 3);
 
         document.getElementById("money").innerHTML = money
         document.getElementById("upOrchidCost").innerHTML = upOrchidCost
@@ -264,6 +282,12 @@ function buyUpOrchid() {
         document.getElementById("orchidMoney").innerHTML = orchidMoney
     }
 }
+
+
+
+//-----------ADDING MONEY----------
+
+
 
 setInterval (function() {
     money = money + dandelion * dandelionMoney;
