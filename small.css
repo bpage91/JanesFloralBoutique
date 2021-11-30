@@ -2,8 +2,16 @@ body {
     background-color: rgb(193, 17, 209);
 }
 
+aside {
+    display: flex;
+}
+
+main {
+    display: flex;
+}
+
 .button {
-    display: block;
+    display: flex;
     box-sizing: border-box;
     margin: 2px;
     padding: 35px;
@@ -15,20 +23,3 @@ body {
     font-size: 10px;
 }
 
-/*button#hamburgerBtn {
-
-} --styling for hamburgerbtn*/
-
-nav ul.open {
-    display: block;
-}
-
-nav ul {
-    display:none
-}
-
-.clearfix:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
