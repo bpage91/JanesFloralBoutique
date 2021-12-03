@@ -18,51 +18,58 @@
             <h1>
                 <h1>Jane's Floral Boutique</h1>
             </h1>
+            <nav>
+                <ul>
+                    <li><a href="#upgrades">Upgrades</a></li>
+                </ul>
+            </nav>
         </header>
+        <div class="main">
+            <aside class="moneyCount">
+                <h1>Money: <span id="money">5</span></h1>
+            </aside>
+              
+            <main class="maingame">
+                <div>
+                    <button class="button" onclick="buyDandelion()">Dandelion Price:<span id="dandelionCost">5</span>
+                        Level:<span id="dandelion">0</span></button>
+                    <button class="button" onclick="buyTulip()">Tulip Price:<span id="tulipCost">25</span>
+                        Level:<span id="tulip">0</span></button>
+                    <button class="button" onclick="buyRose()">Rose Price:<span id="roseCost">125</span>
+                        Level:<span id="rose">0</span></button>
+                    <button class="button" onclick="buyLily()">Lily Price:<span id="lilyCost">625</span>
+                        Level:<span id="lily">0</span></button>
+                    <button class="button" onclick="buyDaffodil()">Daffodil Price:<span id="daffodilCost">3125</span>
+                        Level:<span id="daffodil">0</span></button>
+                    <button class="button" onclick="buyDaisy()">Daisy Price:<span id="daisyCost">15625</span>
+                        Level:<span id="daisy">0</span></button>
+                    <button class="button" onclick="buyCarnation()">Carnation Price:<span id="carnationCost">78125</span>
+                        Level:<span id="carnation">0</span></button>
+                    <button class="button" onclick="buyOrchid()">Orchid Price:<span id="orchidCost">390625</span>
+                        Level:<span id="orchid">0</span></button>
+                </div>
 
-        <aside>
-            <h1>Money: <span id="money">5</span></h1>
-        </aside>
-
-        <main>
-            <div>
-                <button onclick="buyDandelion()">Dandelion <span id="dandelionCost">Price: 5 </span>
-                    <span id="dandelion">Level: 0</span></button>
-                <button onclick="buyTulip()">Tulip <span id="tulipCost">Price: 25 </span>
-                    <span id="tulip">Level: 0</span></button>
-                <button onclick="buyRose()">Rose <span id="roseCost">Price: 125 </span>
-                    <span id="rose">Level: 0</span></button>
-                <button onclick="buyLily()">Lily <span id="lilyCost">Price: 625 </span>
-                    <span id="lily">Level: 0</span></button>
-                <button onclick="buyDaffodil()">Daffodil <span id="daffodilCost">Price: 3125 </span>
-                    <span id="daffodil">Level: 0</span></button>
-                <button onclick="buyDaisy()">Daisy <span id="daisyCost">Price: 15625 </span>
-                    <span id="daisy">Level: 0</span></button>
-                <button onclick="buyCarnation()">Carnation <span id="carnationCost">Price: 78125 </span>
-                    <span id="carnation">Level: 0</span></button>
-                <button onclick="buyOrchid()">Orchid <span id="orchidCost">Price: 390625 </span>
-                    <span id="orchid">Level: 0</span></button>
-            </div>
-
-            <div>
-                <button onclick="buyUpDandelion()">Upgrade Dandelion <span id="upDandelionCost">Price: 1000 </span>
-                    <span id="upDandelion">Level: 0</span></button>
-                <button onclick="buyUpTulip()">Upgrade Tulip <span id="upTulipCost">Price: 5000 </span>
-                    <span id="upTulip">Level: 0</span></button>
-                <button onclick="buyUpRose()">Upgrade Rose <span id="upRoseCost">Price: 25000 </span>
-                    <span id="upRose">Level: 0</span></button>
-                <button onclick="buyUpLily()">Upgrade Lily <span id="upLilyCost">Price: 125000 </span>
-                    <span id="upLily">Level: 0</span></button>
-                <button onclick="buyUpDaffodil()">Upgrade Daffodil <span id="upDaffodilCost">Price: 650000 </span>
-                    <span id="upDaffodil">Level: 0</span></button>
-                <button onclick="buyUpDaisy()">Upgrade Daisy <span id="upDaisyCost">Price: 3125000 </span>
-                    <span id="upDaisy">Level: 0</span></button>
-                <button onclick="buyUpCarnation()">Upgrade Carnation <span id="upCarnationCost">Price: 15625000 </span>
-                    <span id="upCarnation">Level: 0</span></button>
-                <button onclick="buyUpOrchid()">Upgrade Orchid <span id="upOrchidCost">Price: 78125000 </span>
-                    <span id="upOrchid">Level: 0</span></button>
-            </div>
-        </main>
+                <div id="upgrades">
+                    <h1>Upgrades</h1>
+                    <button class="button" onclick="buyUpDandelion()">Upgrade Dandelion Price:<span id="upDandelionCost">1000</span>
+                        Level:<span id="upDandelion">0</span></button>
+                    <button class="button" onclick="buyUpTulip()">Upgrade Tulip Price:<span id="upTulipCost">5000</span>
+                        Level:<span id="upTulip">0</span></button>
+                    <button class="button" onclick="buyUpRose()">Upgrade Rose Price:<span id="upRoseCost">25000</span>
+                        Level:<span id="upRose">0</span></button>
+                    <button class="button" onclick="buyUpLily()">Upgrade Lily Price:<span id="upLilyCost">125000</span>
+                        Level:<span id="upLily">0</span></button>
+                    <button class="button" onclick="buyUpDaffodil()">Upgrade Daffodil Price:<span id="upDaffodilCost">650000</span>
+                        Level:<span id="upDaffodil">0</span></button>
+                    <button class="button" onclick="buyUpDaisy()">Upgrade Daisy Price:<span id="upDaisyCost">3125000</span>
+                        Level:<span id="upDaisy">0</span></button>
+                    <button class="button" onclick="buyUpCarnation()">Upgrade Carnation Price:<span id="upCarnationCost">15625000</span>
+                        Level:<span id="upCarnation">0</span></button>
+                    <button class="button" onclick="buyUpOrchid()">Upgrade Orchid Price:<span id="upOrchidCost">78125000</span>
+                        Level:<span id="upOrchid">0</span></button>
+                </div>
+            </main>
+        </div>
         <script src="main.js"></script> 
     </body>
 </html>

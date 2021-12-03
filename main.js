@@ -3,7 +3,7 @@
 
 
 //variables
-var money = 1005;
+var money = 5;
 var dandelionCost = 5;
 var dandelion = 0;
 var dandelionMoney = 1;
