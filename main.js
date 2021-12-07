@@ -187,7 +187,6 @@ function buyUpDandelion() {
         document.getElementById("money").innerHTML = money
         document.getElementById("upDandelionCost").innerHTML = upDandelionCost
         document.getElementById("upDandelion").innerHTML = upDandelion
-        document.getElementById("dandelionMoney").innerHTML = dandelionMoney
     }
 }
 
@@ -202,7 +201,6 @@ function buyUpTulip() {
         document.getElementById("money").innerHTML = money
         document.getElementById("upTulipCost").innerHTML = upTulipCost
         document.getElementById("upTulip").innerHTML = upTulip
-        document.getElementById("tulipMoney").innerHTML = tulipMoney
     }
 }
 
@@ -217,7 +215,6 @@ function buyUpRose() {
         document.getElementById("money").innerHTML = money
         document.getElementById("upRoseCost").innerHTML = upRoseCost
         document.getElementById("upRose").innerHTML = upRose
-        document.getElementById("roseMoney").innerHTML = roseMoney
     }
 }
 
@@ -232,7 +229,6 @@ function buyUpLily() {
         document.getElementById("money").innerHTML = money
         document.getElementById("upLilyCost").innerHTML = upLilyCost
         document.getElementById("upLily").innerHTML = upLily
-        document.getElementById("lilyMoney").innerHTML = lilyMoney
     }
 }
 
@@ -247,7 +243,6 @@ function buyUpDaffodil() {
         document.getElementById("money").innerHTML = money
         document.getElementById("upDaffodilCost").innerHTML = upDaffodilCost
         document.getElementById("upDaffodil").innerHTML = upDaffodil
-        document.getElementById("daffodilMoney").innerHTML = daffodilMoney
     }
 }
 
@@ -262,7 +257,6 @@ function buyUpDaisy() {
         document.getElementById("money").innerHTML = money
         document.getElementById("upDaisyCost").innerHTML = upDaisyCost
         document.getElementById("upDaisy").innerHTML = upDaisy
-        document.getElementById("daisyMoney").innerHTML = daisyMoney
     }
 }
 
@@ -277,7 +271,6 @@ function buyUpCarnation() {
         document.getElementById("money").innerHTML = money
         document.getElementById("upCarnationCost").innerHTML = upCarnationCost
         document.getElementById("upCarnation").innerHTML = upCarnation
-        document.getElementById("carnationMoney").innerHTML = carnationMoney
     }
 }
 
@@ -292,7 +285,6 @@ function buyUpOrchid() {
         document.getElementById("money").innerHTML = money
         document.getElementById("upOrchidCost").innerHTML = upOrchidCost
         document.getElementById("upOrchid").innerHTML = upOrchid
-        document.getElementById("orchidMoney").innerHTML = orchidMoney
     }
 }
 

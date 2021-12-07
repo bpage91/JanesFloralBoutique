@@ -61,7 +61,6 @@ nav ul li a {
 /*----------Game----------*/
 
 .button {
-    /* display: grid; */
     box-sizing: border-box;
     margin: 10px;
     padding: 20px;
@@ -135,7 +134,7 @@ nav {
     text-align: center;
 }
 
-} /*end of media query*/
+}
 
 /*-----------Large Media Query---------------*/
 
@@ -159,11 +158,6 @@ nav {
     justify-content: center;
     margin-top: 10px;
 }
-
- /* #mainGame h1 {
-    position: absolute;
-    top: 80px;
-} */
 
 #flowerShop {
     display: grid;
@@ -277,7 +271,7 @@ nav {
     grid-row: 5;
 }
 
-} /*end of media query*/
+}
 
 .clearfix:after {
     content: "";
