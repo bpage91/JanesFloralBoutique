@@ -1,7 +1,7 @@
 # JanesFloralBoutique
 
 ## Description
-Jane's Floral Boutique is a JavaScript game much like cookie clicker. You will start with enough money to buy one level for dandelions. That will start generatiing money per second and from there you can continue to buy more levels on dandelion or start buying other shops and upgrades. As you buy more levels, shops, and upgrades you will begin to generate more money.
+Jane's Floral Boutique is a JavaScript game much like cookie clicker. You will start with enough money to buy one level for dandelions. That will start generating money per second and from there you can continue to buy more levels on dandelion or start buying other shops and upgrades. As you buy more levels, shops, and upgrades you will begin to generate more money.
 
 ## CSS Features
 1. I have a Hamburger menu for my mobile design that allows you to jump to the upgrades and flower shop from anywhere on the site. Allowing for easier buying of upgrades or shops.
